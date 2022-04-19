@@ -1,4 +1,4 @@
-FROM mongodb:5 as base
+FROM mongodb as base
 
 # MongoDB download URL
 ARG DB_URL=https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu2004-4.4.12.tgz
